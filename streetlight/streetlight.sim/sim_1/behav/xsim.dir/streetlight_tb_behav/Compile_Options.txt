@@ -1,0 +1,1 @@
+-wto "938ae1dd5125465da7b96b9dd80d4dd1" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "streetlight_tb_behav" "xil_defaultlib.streetlight_tb" "xil_defaultlib.glbl" -log "elaborate.log" 
