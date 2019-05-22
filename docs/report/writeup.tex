@@ -1,7 +1,5 @@
 \documentclass[UTF8]{article}
 
-% \usepackage{indentfirst} %缩进
-% \usepackage{xeCJK}    %使用系统字体
 \usepackage{ctex}
 \usepackage{fancyhdr} %自定义页眉页脚
 \usepackage{listings} %source code
@@ -10,88 +8,46 @@
 \usepackage{graphicx}
 \usepackage{multirow}
 
-% \setCJKmainfont{SimSun} %设置 CJK 主字体为 SimSun （宋体）
-% \pagestyle{empty}                   %不设置页眉页脚
-% \usepackage{amsmath, amsthm, amssymb, amsfonts} %数学公式
-% \usepackage[a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
-% %\usepackage[tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in]{geometry}.
-% \usepackage{booktabs} %插入表格
-% \usepackage[section]{placeins} %避免浮动
-% \usepackage{listings} %插入代码
-% \usepackage{ctex}     %中文宏包
-% \usepackage[svgnames, table]{xcolor} %彩色表格
-% \usepackage{algorithm}          %伪代码
-% \usepackage{algorithmicx}
-% \usepackage{algpseudocode}
-% \usepackage{algorithm,algpseudocode,float}
-% \usepackage{lipsum}
-% \usepackage{enumitem}           %调整列举环境
-% \usepackage{url}
-% \usepackage{fontspec,xunicode}
-
-% %-----------------------xeCJK下设置中文字体------------------------------%
-% \setCJKfamilyfont{song}{SimSun}                             %宋体 song
-% \newcommand{\song}{\CJKfamily{song}}
-% \setCJKfamilyfont{fs}{FangSong}                      %仿宋  fs
-% \newcommand{\fs}{\CJKfamily{fs}}
-% \setCJKfamilyfont{ktgb}{KaiTi}                      %楷体2312 ktgb
-% \newcommand{\ktgb}{\CJKfamily{ktgb}}
-% \setCJKfamilyfont{yh}{Microsoft YaHei}                    %微软雅黑 yh
-% \newcommand{\yh}{\CJKfamily{yh}}
-% \setCJKfamilyfont{hei}{SimHei}                              %黑体  hei
-% \newcommand{\hei}{\CJKfamily{hei}}
-% \setCJKfamilyfont{hwxk}{STXingkai}                                %华文行楷  hwxk
-% \newcommand{\hwxk}{\CJKfamily{hwxk}}
-
-% \newcommand{\shiyanbaogao}{\fontsize{36pt}{\baselineskip}\selectfont}
-% \newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}     %初号
-% \newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont} %小初号
-% \newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}      %一号
-% \newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}      %二号
-% \newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}  %小二号
-% \newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}  %三号
-% \newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}       %四号
-% \newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}  %小四号
-% \newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}    %五号
-% % \newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}   %小五号
-% % \newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  %六号
-% % \newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}    %七号
 \begin{document}
 
 
 \begin{titlepage}
-\center{北京理工大学\underline{计算机}学院2017级}
-\vspace{1cm}
-\center{\Huge{《数字逻辑》实验二}}
+\center{北京理工大学计算机学院2017级}
 \vspace{0.5cm}
-\center{\Huge{实~验~报~告}}
-\vspace{2cm}
+\center{\huge{《数字逻辑》实验二  实验报告}}
+\vspace{0.5cm}
+\center{\Huge{一个三开关的低电压照明系统}}
+\vspace{0.5cm}
 
 \begin{center}
 \begin{large}
 \begin{tabular}{r c}
-小组编号& xxxxx\\
+小组编号& 44\\
 \cline{2-2}\\
 \hline
-学\qquad 号& \hspace{1.7cm}{xxxx} \\
+学\qquad 号& 1120173323 \\
 \cline{2-2}\\
-姓\qquad 名& 你的名字 \\
+姓\qquad 名& 王聚海 \\
+\cline{2-2}\\
+班\qquad 级 & xxxx \\
 \cline{2-2}\\
 \hline
-学\qquad 号& \hspace{1.7cm}{xxxx} \\
+学\qquad 号& 1120171224 \\
 \cline{2-2}\\
-姓\qquad 名& 你的名字 \\
+姓\qquad 名& 冯开宇 \\
 \cline{2-2}\\ 
-\hline
-学\qquad 号& \hspace{1.7cm}{xxxx} \\
+班\qquad 级 & 07011701 \\
 \cline{2-2}\\
-姓\qquad 名& 你的名字 \\
+\hline
+学\qquad 号& 1120172200 \\
+\cline{2-2}\\
+姓\qquad 名& 刘思雨 \\
 \cline{2-2}\\ 
+班\qquad 级 & 07011701 \\
+\cline{2-2}\\
 
 
 
-% \xiaoerhao{\hei{理论教师}}& \xiaoerhao{\hei{X~X~X}}\\
-% \cline{2-2}\\
 \end{tabular}
 \end{large}
 \end{center}
@@ -120,15 +76,18 @@
 $Z$的值就会改变，从而控制电灯的开和关。
 
 \section{设计目的}
-
-利用组合逻辑电路，按照题目要求，设计电路模块，
-利用三个开关$X1,X2,X3$的输出控制缓冲器输入$Z$，
-从而控制一个灯的亮与灭，并结合开发板进行演示验证。
+\begin{enumerate}
+    \item 利用组合逻辑电路，按照题目要求，设计电路模块，
+    \item 利用三个开关$X1,X2,X3$的输出控制缓冲器输入$Z$，
+    \item 从而控制一个灯的亮与灭，并结合开发板进行演示验证。
+\end{enumerate}
 
 \section{设备器材}
-Xilinx Vivado开发环境
+\begin{itemize}
+    \item Xilinx Vivado开发环境
+    \item EES-338口袋计算机硬件平台，配备 FPGA (XC7A35TCSG324-1C)
 
-EES-338口袋计算机硬件平台，配备 FPGA (XC7A35TCSG324-1C)
+\end{itemize}
 
 \section{设计原理与内容}
 \subsection{问题分析}
@@ -152,7 +111,6 @@ EES-338口袋计算机硬件平台，配备 FPGA (XC7A35TCSG324-1C)
 
 按照如上分析，可以直接列出真值表，输入按照格雷码排列，则输出从0开始不断取反。
 真值表如下：
-% TODO 表格
 
 \begin{table}[!htbp]
 \centering
@@ -230,6 +188,20 @@ $$Z = X1\oplus X2\oplus X3$$
 \subsection{运行}
 
 \section{遇到的问题及解决方法}
-\section{参考文献}
+无
+
+\section{小组成员分工}
+刘思雨
+\begin{itemize}
+    \item 代码设计、实现、测试
+    \item 文档撰写
+\end{itemize}
+
+冯开宇
+\begin{itemize}
+    \item 文档撰写与排版
+\end{itemize}
+\section{参考资料}
+无
 
 \end{document}
