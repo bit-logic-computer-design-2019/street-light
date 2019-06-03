@@ -23,7 +23,7 @@
 \begin{center}
 \begin{large}
 \begin{tabular}{c c |c c}
-小组编号& 44 & 指导老师 & 王娟\\
+小组编号& 15 & 指导老师 & 王娟\\
 \cline{2-2} \cline{4-4}
 \hline
 学\qquad 号& 1120173323 & 电\qquad 话& 592175501@qq.com \\
@@ -186,7 +186,12 @@ $$Z = X1\oplus X2\oplus X3$$
 
 \subsection{仿真与测试}
 进行行为仿真。得到的波形与预计一致。
-\subsection{运行}
+\subsection{运行结果}
+
+本实验中,拨码开关的前三位(用户手册中 SW0, SW1, SW2)即为题目中控
+制灯的三个开关,第一个 LED 灯(用户手册中 D0)即为题目中走廊中的灯。任
+意拨动一个开关,灯的状态就会改变。
+初始时灯的状态是关闭。
 
 \section{遇到的问题及解决方法}
 无
@@ -201,7 +206,23 @@ $$Z = X1\oplus X2\oplus X3$$
 
 在问题解决过程中,我们通过分析来正确应用用数字逻辑理理论部分学习成果的能
 力力力得到了了提升。
+\begin{table}[!htbp]
+\centering
+\begin{tabu} to 0.8\textwidth{ X[c] | X[c]  }
+    \hline
+    拨动开关 & 灯的状态 \\
+    \hline\hline
+     1 & 开\\
+     2 & 关\\
+     3 & 开\\
+     1 & 关\\
+     1 & 开\\
+     2 & 关\\
+     3 & 开\\
 
+    \end{tabu}
+\caption{真值表}
+\end{table}
 \section{小组成员分工}
 刘思雨
 \begin{itemize}
